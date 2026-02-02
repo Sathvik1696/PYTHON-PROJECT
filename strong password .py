@@ -12,7 +12,7 @@ import os
 import re
 from collections import Counter
 
-password=random.choice(["Ravi@123","Karan@125","Nehaa@1475"])         #randomly choose a password
+password=random.choice(["Sathvik@9696","Ram@916","Seth@12387"])         #randomly choose a password
   
 pattern=r"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*@).{8,}$"               #regex pattern used for checking the choosen password
 if re.search(pattern,password):       
@@ -44,4 +44,5 @@ print(password)                                       #prints password
 print(passwordstrength)                               #prints password strength
 print(Character_count)                                #prints countof characters
 print(strength_score)                                 #prints strength score of password
+
 print(file_path)                                      #prints file path
